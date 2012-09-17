@@ -20,4 +20,6 @@ Installation instruction:
 
 		phpcs --config-set default_standard ZL
 
-5. Done :)
+5. Go to `PHPStorm -> Preferences` and use search with phrase `code sniffer` to find `PHP Code Sniffer validation`. Set path to phpcs and choose `ZL` standard as current. Apply.
+
+6. Done :)
