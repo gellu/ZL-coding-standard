@@ -6,11 +6,7 @@
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006-2011 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @link      http://pear.php.net/package/PHP_CodeSniffer
+ * @author    gellu <grkrysiak@gmail.com>
  */
 
 if (class_exists('PHP_CodeSniffer_Standards_AbstractPatternSniff', true) === false) {
@@ -22,12 +18,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractPatternSniff', true) === fal
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006-2011 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   Release: 1.3.6
- * @link      http://pear.php.net/package/PHP_CodeSniffer
+ * @author    gellu <grkrysiak@gmail.com>
  */
 class ZL_Sniffs_ControlStructures_ControlSignatureSniff extends PHP_CodeSniffer_Standards_AbstractPatternSniff
 {
