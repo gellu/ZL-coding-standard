@@ -20,6 +20,10 @@ Installation instruction:
 
 		phpcs --config-set default_standard ZL
 
-5. Go to `PHPStorm -> Preferences` and use search with phrase `code sniffer` to find `PHP Code Sniffer validation`. Set path to phpcs and choose `ZL` standard as current. Apply.
+5. Set `tab` character for indent instead of spaces
 
-6. Done :)
+		phpcs --config-set tab_width 4
+
+6. Go to `PHPStorm -> Preferences` and use search with phrase `code sniffer` to find `PHP Code Sniffer validation`. Set path to phpcs and choose `ZL` standard as current. Apply.
+
+7. Done :)
