@@ -34,6 +34,9 @@
         <!-- do not check line length -->
         <exclude name="Generic.Files.LineLength"/>
 
+        <!-- do not check ZEND variables, we have our own -->
+        <exclude name="Zend.NamingConventions.ValidVariableName"/>
+
     </rule>
     ....
     <!-- Don't enforce Zend's private member underscores -->
@@ -59,6 +62,10 @@
     </rule>
 
     <rule ref="Symfony2.Commenting.FunctionComment.SpacingBeforeTags">
+        <severity>0</severity>
+    </rule>
+
+    <rule ref="Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned">
         <severity>0</severity>
     </rule>
 
