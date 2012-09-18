@@ -36,5 +36,7 @@ class testModel
 	function __construct($userId)
 	{
 		$this->user_id = $userId;
+
+		$test_var = 'pies';
 	}
 }
