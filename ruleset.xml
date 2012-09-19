@@ -65,6 +65,10 @@
         <severity>0</severity>
     </rule>
 
+	<rule ref="Symfony2.Commenting.FunctionComment.ParameterCommentsNotAligned">
+	    <severity>0</severity>
+    </rule>
+	
     <rule ref="Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned">
         <severity>0</severity>
     </rule>
