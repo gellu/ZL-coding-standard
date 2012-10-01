@@ -38,7 +38,9 @@
         <exclude name="Zend.NamingConventions.ValidVariableName"/>
 
     </rule>
-    ....
+
+
+
     <!-- Don't enforce Zend's private member underscores -->
     <rule ref="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore">
         <severity>0</severity>
@@ -57,19 +59,19 @@
         <severity>0</severity>
     </rule>
 
-    <rule ref="Symfony2.Commenting.FunctionComment.MissingParamComment">
+    <rule ref="ZL.Commenting.FunctionComment.MissingParamComment">
         <severity>0</severity>
     </rule>
 
-    <rule ref="Symfony2.Commenting.FunctionComment.SpacingBeforeTags">
+    <rule ref="ZL.Commenting.FunctionComment.SpacingBeforeTags">
         <severity>0</severity>
     </rule>
 
-	<rule ref="Symfony2.Commenting.FunctionComment.ParameterCommentsNotAligned">
+	<rule ref="ZL.Commenting.FunctionComment.ParameterCommentsNotAligned">
 	    <severity>0</severity>
     </rule>
 	
-    <rule ref="Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned">
+    <rule ref="ZL.Commenting.FunctionComment.ParameterNamesNotAligned">
         <severity>0</severity>
     </rule>
 
