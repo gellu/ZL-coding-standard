@@ -9,6 +9,8 @@
  * @author    gellu <grkrysiak@gmail.com>
  */
 
+error_reporting(E_ALL ^ E_NOTICE);
+
 if (class_exists('PHP_CodeSniffer_Standards_AbstractPatternSniff', true) === false) {
     throw new PHP_CodeSniffer_Exception('Class PHP_CodeSniffer_Standards_AbstractPatternSniff not found');
 }
